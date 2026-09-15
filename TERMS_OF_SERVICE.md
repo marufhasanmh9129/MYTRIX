@@ -1,84 +1,51 @@
-📜 "MYTRIX" — TERMS OF SERVICE
+# MYTRIX — Terms of Service
 
-«Terms of Service for MYTRIX Discord Bots, Services & Software.»
+**Last Updated: September 15, 2026**
 
-Last Updated: "August 24, 2026"
+By using, installing, accessing, or interacting with MYTRIX, you agree to these Terms of Service. If you do not agree, do not use the service.
 
----
+## 1. Service
 
-"1. Acceptance of Terms"
+MYTRIX provides Discord bot features such as moderation, utilities, automation, music, server management, and related software functionality. Features may be changed, updated, suspended, or discontinued.
 
-By using, installing, accessing, or interacting with "MYTRIX" services, you agree to these Terms of Service.
+## 2. Acceptable Use
 
-If you do not agree with these terms, please do not use our services.
+You must not use MYTRIX to:
 
----
+- Violate applicable laws or platform rules
+- Distribute malware or intentionally disrupt systems
+- Attempt unauthorized access
+- Abuse, spam, or harass others
+- Expose private information or credentials
+- Impersonate MYTRIX or its staff
+- Circumvent security or access controls
 
-"2. Our Services"
+## 3. Discord Requirements
 
-"MYTRIX" may provide:
+Users must comply with Discord's applicable Terms of Service, Community Guidelines, and developer requirements when using Discord-related features. MYTRIX is not affiliated with or endorsed by Discord.
 
-- 🤖 Discord Bots
-- ⚙️ Software and tools
-- 🛡️ Server-management features
-- 🔧 Configuration services
-- 💻 Development services
-- 📦 Digital products
+## 4. Intellectual Property
 
-Features may change, be updated, or be discontinued at any time.
+Unless otherwise stated, MYTRIX software, branding, documentation, and original content remain the property of their respective rights holders. Third-party libraries and components remain subject to their own licenses.
 
----
+## 5. Availability
 
-"3. Acceptable Use"
+MYTRIX is provided without a guarantee of uninterrupted or error-free operation. Maintenance, configuration problems, third-party outages, or other technical issues may affect availability.
 
-You agree not to use "MYTRIX" services to:
+## 6. Termination
 
-- ❌ Break applicable laws or regulations
-- ❌ Abuse, spam, or intentionally disrupt services
-- ❌ Attempt unauthorized access
-- ❌ Distribute malicious software
-- ❌ Steal or expose private information
-- ❌ Impersonate "MYTRIX" or its staff
-- ❌ Circumvent security or access controls
+Access may be restricted or terminated when reasonably necessary because of abuse, security concerns, unlawful activity, or material violations of these terms.
 
----
+## 7. Changes
 
-"4. Discord Rules"
+These terms may be updated from time to time. The latest revision date appears above.
 
-Users must comply with the applicable Discord Terms of Service and Community Guidelines when using our Discord-related services.
+## 8. Disclaimer
 
-"MYTRIX" is not affiliated with or endorsed by Discord.
+To the extent permitted by applicable law, MYTRIX is provided on an as-is and as-available basis without guarantees beyond those expressly stated in applicable documentation or agreements.
 
----
+## 9. Contact
 
-"5. Intellectual Property"
+For questions about these terms, contact the official MYTRIX support team.
 
-Unless otherwise stated, original "MYTRIX" software, branding, documentation, and content remain the property of "MYTRIX" or their respective owners.
-
-Third-party libraries and components remain subject to their own licenses.
-
----
-
-"6. Availability"
-
-We do not guarantee that our services will always be available, uninterrupted, or error-free.
-
-Services may experience maintenance, updates, outages, or technical problems.
-
----
-
-"7. Termination"
-
-We may restrict or terminate access to our services when reasonably necessary, including in cases of abuse, security threats, or violations of these terms.
-
----
-
-"8. Changes to These Terms"
-
-We may update these Terms of Service from time to time.
-
-The "Last Updated" date will indicate the latest version.
-
----
-
-"© 2026 MYTRIX — All Rights Reserved"
+© 2026 MYTRIX

@@ -1,163 +1,96 @@
-🤖 "MARUF" All-In-One Discord Bot
+# MYTRIX
 
-«A powerful, modern, all-in-one Discord bot created by "MARUF".»
+> All-in-one Discord bot for moderation, utilities, automation, music, server management, and more.
 
----
+## Features
 
-📌 "About"
+- 🛡️ Moderation and permission management
+- 👋 Welcome and auto-role systems
+- 📋 Logging and server configuration
+- 🎁 Giveaway and utility commands
+- 🎵 Music and Lavalink integration
+- 📊 Server statistics and automation
 
-"MARUF All-In-One Discord Bot" is a feature-rich Discord bot designed to provide multiple server-management and utility features in one project.
+## Requirements
 
-✨ "Features"
+- Node.js 18 or newer
+- npm
+- A Discord application and bot
+- Git (optional)
 
-- 🛡️ Moderation
-- 👋 Welcome System
-- 📋 Logging System
-- 🎁 Giveaway System
-- 🔧 Utility Commands
-- 🎭 Auto Role
-- 📊 Server Statistics
-- 🤖 Automation
-- ⚙️ Server Configuration
-- 🔐 Permission Management
+## Quick Start
 
----
+1. Clone the repository.
+2. Install dependencies.
+3. Create and configure your environment file.
+4. Start the bot.
 
-🛠️ "Requirements"
+See **[SETUP.md](SETUP.md)** for the complete setup guide.
 
-Node.js 18+
-Discord Bot Application
-Discord Bot Token
-Git
+## Environment Variables
 
----
+Keep secrets in `.env` and never commit them to GitHub. Use `.env.example` when available as a template.
 
-🚀 "Installation"
+Typical variables may include:
 
-"1." Clone the repository
+- `TOKEN`
+- `CLIENT_ID`
+- `GUILD_ID`
+- Database or Lavalink settings used by your configuration
 
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd YOUR_REPOSITORY_NAME
+The exact variables depend on the source configuration.
 
-"2." Install dependencies
+## Music Search Sources
 
-npm install
-
-"3." Create ".env"
-
-Create a file named:
-
-.env
-
-Add:
-
-TOKEN=YOUR_DISCORD_BOT_TOKEN
-CLIENT_ID=YOUR_CLIENT_ID
-GUILD_ID=YOUR_GUILD_ID
-
-"4." Start the bot
-
-npm start
-
-Or:
-
-node index.js
-
----
-
-🔐 "Environment Variables"
-
-«⚠️ Never upload your real Discord bot token to GitHub.»
-
-Create ".gitignore":
-
-node_modules/
-.env
-.env.*
-*.log
-
-You can provide an example configuration as:
-
-TOKEN=YOUR_BOT_TOKEN
-CLIENT_ID=YOUR_CLIENT_ID
-GUILD_ID=YOUR_GUILD_ID
-
----
-
-📁 "Project Structure"
-
-MARUF-Discord-Bot/
-│
-├── 📁 commands/
-├── 📁 events/
-├── 📁 handlers/
-├── 📁 config/
-├── 📁 data/
-│
-├── 📄 index.js
-├── 📄 package.json
-├── 📄 .env.example
-├── 📄 .gitignore
-├── 📄 LICENSE
-└── 📄 README.md
-
----
-
-⚙️ "Commands"
+If music search is enabled, `MUSIC_SEARCH_SOURCES` can contain a comma-separated list of search prefixes supported by the connected Lavalink node.
 
 Example:
 
-/help
-/ping
-/serverinfo
-/userinfo
-/giveaway
-/moderation
+```env
+MUSIC_SEARCH_SOURCES=ytsearch,ytmsearch,scsearch,spsearch,dzsearch,amsearch,tdsearch,qbsearch,ymsearch,vksearch,jssearch,pdsearch,bcsearch
+```
 
-«Commands may differ depending on your bot configuration.»
+The prefixes only work when the corresponding source or plugin is available on the Lavalink node. Setting an environment variable does not install or enable a music source by itself.
 
----
+## Useful Commands
 
-📜 "License"
+The available commands depend on the enabled modules and current source configuration. Examples include:
 
-This project is protected by the "MATRIX LICENSE".
+- `/help`
+- `/ping`
+- `/serverinfo`
+- `/userinfo`
+- `/giveaway`
 
-Author: MARUF
-Copyright: © 2026 MARUF
-License: MATRIX LICENSE
+## Project Structure
 
-See ""LICENSE"" (LICENSE) for the complete license terms.
+```text
+src/
+├── commands/
+├── handlers/
+├── config/
+├── data/
+└── index.js
+```
 
----
+## Security
 
-⚠️ "Disclaimer"
+Never publish or commit:
 
-This project is not affiliated with, sponsored by, or endorsed by Discord.
+- Discord bot tokens
+- API keys
+- Database credentials
+- Private keys
+- Other authentication secrets
 
-Discord and its related trademarks belong to their respective owners.
+If a token is exposed, revoke or regenerate it immediately.
 
----
+## License
 
-👤 "Author"
+This project is distributed under the license included in the repository.
 
-╔════════════════════════════╗
-║           MARUF            ║
-║      Discord Developer     ║
-╚════════════════════════════╝
+## Disclaimer
 
-Created with ❤️ by "MARUF"
+MYTRIX is not affiliated with, sponsored by, or endorsed by Discord. Discord and its trademarks belong to their respective owners.
 
----
-
-⭐ "Support"
-
-If you like this project:
-
-- ⭐ Star the repository
-- 🍴 Fork the repository
-- 🐛 Report bugs
-- 💡 Suggest improvements
-
----
-
-"© 2026 MARUF — All Rights Reserved"
+© 2026 MYTRIX
